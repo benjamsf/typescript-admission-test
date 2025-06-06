@@ -1,0 +1,15 @@
+# always ignore dependencies & build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Vite/Tailwind/PostCSS configuration files
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+
+# generated TypeScript helpers
+src/vite-env.d.ts
+public/
+src/assets/

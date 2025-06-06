@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* 2) Tailwind layers */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 3) Global dark theme + full-height root */
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+  body {
+    @apply bg-black text-gray-200 font-sans antialiased;
+  }
+}
