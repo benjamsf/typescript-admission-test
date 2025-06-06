@@ -3,6 +3,7 @@ node_modules/
 dist/
 build/
 coverage/
+docs/
 
 # Vite/Tailwind/PostCSS configuration files
 vite.config.ts

@@ -27,5 +27,6 @@ module.exports = {
     "vite.config.ts",
     "tailwind.config.js",
     "src/mocks/**/*",
+    "src/docs/",
   ],
 };
